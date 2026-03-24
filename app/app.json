@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "asdfghjkl",
+    "slug": "asdfghjkl",
+    "version": "1.0.0",
+    "plugins": [
+  [
+    "expo-camera",
+    {
+      "cameraPermission": "Allow asdfghjkl to access your camera",
+      "microphonePermission": "Allow asdfghjkl to access your microphone",
+      "recordAudioAndroid": true
+    }
+  ]
+],
+
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
